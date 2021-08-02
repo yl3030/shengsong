@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>勝崧科技</title>
+
+    <link rel="icon" href="images/icon.svg" />
+
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css" />
+
+    <!-- fancybox -->
+    <link
+      rel="stylesheet"
+      href="./styles/fancybox/jquery.fancybox-buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/fancybox/jquery.fancybox-thumbs.css"
+    />
+    <link rel="stylesheet" href="./styles/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="./styles/new.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="box1">
+          <a href="index.html"><img src="images/logo.svg" alt="勝崧科技" /></a>
+        </div>
+
+        <div class="box2">
+          <nav>
+            <ul class="flex-style">
+              <li class="active"><a href="index.html">首頁</a></li>
+
+              <li><a href="about.html">關於我們</a></li>
+
+              <li><a href="pdList.html">產品介紹</a></li>
+
+              <li><a href="download.html">檔案下載</a></li>
+
+              <li><a href="contact.html">聯絡我們</a></li>
+              <li><a href="login.html">登入</a></li>
+              <!-- <li class="member"><a>您好！XXX</a></li> -->
+            </ul>
+          </nav>
+        </div>
+        <!-- //box2 -->
+
+        <div class="box3 flex-style">
+          <form class="flex-style">
+            <input type="text" />
+            <button>
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <!-- //box3 -->
+        <div id="menu-icon">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="pageCover"></div>
+
+    <!-- --------------------------------------------------------------------------------------main content -->
+
+    <ul class="breadcrumb">
+      <li><a href="#">首頁</a></li>
+
+      <li><a href="#">產品介紹</a></li>
+
+      <li>遠紅外線AI人工智慧錄影監視機</li>
+    </ul>
+
+    <!-- <section class="title-box">
+      <h2 class="title">產品介紹<span></span></h2>
+    </section> -->
+    <div class="page_wrap">
+      <div class="all_wrap clearfix container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="product-list">
+              <h3 class="product-title flex-style">
+                <span>產品分類</span>
+
+                <i class="fas fa-chevron-down"></i>
+              </h3>
+              <ul class="product-classify">
+                <li><a href="#"> 全部 </a></li>
+                <li class="active">
+                  <a>
+                    <span>分類1</span>
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                  <ul style="display: block">
+                    <li class="active"><a href="#">子分類1</a></li>
+                    <li><a href="#">子分類2</a></li>
+                    <li><a href="#">子分類3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">分類2</a></li>
+                <li><a href="#">分類3</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+            <div class="row product-main">
+              <div class="col-lg-6">
+                <div
+                  id="product-pic"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/01.jpg"
+                        style="background-image: url(./images/test/01.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/02.jpg"
+                        style="background-image: url(./images/test/02.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/03.jpg"
+                        style="background-image: url(./images/test/03.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/04.jpg"
+                        style="background-image: url(./images/test/04.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/05.jpg"
+                        style="background-image: url(./images/test/05.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/01.jpg"
+                        style="background-image: url(./images/test/01.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/02.jpg"
+                        style="background-image: url(./images/test/02.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/03.jpg"
+                        style="background-image: url(./images/test/03.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/04.jpg"
+                        style="background-image: url(./images/test/04.jpg)"
+                      >
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        class="fancybox bg"
+                        rel="gallery1"
+                        href="./images/test/05.jpg"
+                        style="background-image: url(./images/test/05.jpg)"
+                      >
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="0"
+                      class="active bg"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                      style="background-image: url(./images/test/01.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                      class="bg"
+                      style="background-image: url(./images/test/02.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                      class="bg"
+                      style="background-image: url(./images/test/03.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="3"
+                      aria-label="Slide 4"
+                      class="bg"
+                      style="background-image: url(./images/test/04.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="4"
+                      aria-label="Slide 5"
+                      class="bg"
+                      style="background-image: url(./images/test/05.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="5"
+                      aria-label="Slide 6"
+                      class="bg"
+                      style="background-image: url(./images/test/01.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="6"
+                      aria-label="Slide 7"
+                      class="bg"
+                      style="background-image: url(./images/test/02.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="7"
+                      aria-label="Slide 8"
+                      class="bg"
+                      style="background-image: url(./images/test/03.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="8"
+                      aria-label="Slide 9"
+                      class="bg"
+                      style="background-image: url(./images/test/04.jpg)"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#product-pic"
+                      data-bs-slide-to="9"
+                      aria-label="Slide 10"
+                      class="bg"
+                      style="background-image: url(./images/test/05.jpg)"
+                    ></button>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#product-pic"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#product-pic"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="product-introduce">
+                  <div>
+                    <h1>遠紅外線AI人工智慧錄影監視機</h1>
+                    <h4>副標題副標題副標題</h4>
+                    <p>
+                      除上面可放一個商品主要圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現除上面可放一個商品主要圖片，這裡也是自由編輯區，可放許多文字和其他圖片不會跑版。說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現除上面可放一個商品主要圖除上面可放一個商品主要圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現除上面可放一個商品主要圖片，這裡也是自由編輯區，可放許多文字和其他圖片不會跑版。說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現除上面可放一個商品主要圖除上面可放一個商品主要圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現除上面可放一個商品主要圖片，這裡也是自由編輯區，可放許多文字和其他圖片不會跑版。說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現除上面可放一個商品主要圖
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-detail">
+              <div class="btn-box">
+                <button class="active detail-btn1">產品規格</button>
+                <button class="detail-btn2">規格圖</button>
+                <button class="detail-btn3">detail3</button>
+              </div>
+              <div class="pd pd1 editor-box">
+                <p><img src="./images/test/01.jpg" alt="" align="right" /></p>
+                <p>
+                  除上面可放數張商品圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。
+                </p>
+                <p>
+                  說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現？
+                </p>
+                <p>
+                  藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！
+                </p>
+                <p>
+                  打風了率不。到人城、動何如檢參門法定頭道利美阿人三：想早方數傳成器我野談過就走因那生收他人院新素在兩收一的我是計萬元，起大奇知時等好。在能外己看國條已小值臺是朋驗，覺單星青，我沒時正里情化預代但題兒是會藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！們製晚告然和麗我早回爸花，地來己文主公位大一；馬響試我聯灣遊在水，種自。
+                </p>
+                <p>
+                  除上面可放數張商品圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。
+                </p>
+                <p>
+                  說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現？
+                </p>
+                <p>
+                  藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！
+                </p>
+                <p>
+                  打風了率不。到人城、動何如檢參門法定頭道利美阿人三：想早方數傳成器我野談過就走因那生收他人院新素在兩收一的我是計萬元，起大奇知時等好。在能外己看國條已小值臺是朋驗，覺單星青，我沒時正里情化預代但題兒是會藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！們製晚告然和麗我早回爸花，地來己文主公位大一；馬響試我聯灣遊在水，種自。
+                </p>
+                <p><img src="./images/678-2000x500 1.png" alt="" /></p>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ii3aQeOcOYg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="pd pd2 editor-box">
+                <p><img src="./images/test/01.jpg" alt="" /></p>
+                <p>
+                  除上面可放數張商品圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。
+                </p>
+                <p>
+                  說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現？
+                </p>
+                <p>
+                  藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！
+                </p>
+                <p>
+                  說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現？
+                </p>
+                <p>
+                  藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！
+                </p>
+                <p>
+                  打風了率不。到人城、動何如檢參門法定頭道利美阿人三：想早方數傳成器我野談過就走因那生收他人院新素在兩收一的我是計萬元，起大奇知時等好。在能外己看國條已小值臺是朋驗，覺單星青，我沒時正里情化預代但題兒是會藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！們製晚告然和麗我早回爸花，地來己文主公位大一；馬響試我聯灣遊在水，種自。
+                </p>
+                <p><img src="./images/678-2000x500 1.png" alt="" /></p>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ii3aQeOcOYg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="pd pd3 editor-box">
+                <p><img src="./images/test/01.jpg" alt="" align="right" /></p>
+                <p>
+                  除上面可放數張商品圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。
+                </p>
+                <p>
+                  說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現？
+                </p>
+                <p>
+                  藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！
+                </p>
+                <p>
+                  打風了率不。到人城、動何如檢參門法定頭道利美阿人三：想早方數傳成器我野談過就走因那生收他人院新素在兩收一的我是計萬元，起大奇知時等好。在能外己看國條已小值臺是朋驗，覺單星青，我沒時正里情化預代但題兒是會藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！們製晚告然和麗我早回爸花，地來己文主公位大一；馬響試我聯灣遊在水，種自。
+                </p>
+                <p>
+                  除上面可放數張商品圖片，這裡也是自由編輯區，可放許多文字和其他圖片，圖片可任意大小，不會跑版。
+                </p>
+                <p>
+                  說來時照出又學叫現國歷小花個字調費後發小們後一過，後談會制，係不為解……爸原得要大了一馬錢的客意其場過不質道但果叫緊民理方不今你現？
+                </p>
+                <p>
+                  藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！
+                </p>
+                <p>
+                  打風了率不。到人城、動何如檢參門法定頭道利美阿人三：想早方數傳成器我野談過就走因那生收他人院新素在兩收一的我是計萬元，起大奇知時等好。在能外己看國條已小值臺是朋驗，覺單星青，我沒時正里情化預代但題兒是會藥只美克時了那，那息分經發最簡能。學生外！子不的一全向因片生每車導在吃兒於同盡是雨照其也制；獨國覺認治頭動計經要故所我排法我入育且會出人白，斷苦東表系跟大進陽！們製晚告然和麗我早回爸花，地來己文主公位大一；馬響試我聯灣遊在水，種自。
+                </p>
+                <p><img src="./images/678-2000x500 1.png" alt="" /></p>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ii3aQeOcOYg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="clearfix">
+      <div class="container">
+        <div class="d-flex">
+          <div class="box1">
+            <div class="at-top">
+              <h2>勝崧科技股份有限公司</h2>
+
+              <h3>SHENGSONG TECHNOLOGY Co., Ltd</h3>
+            </div>
+
+            <div class="at-bottom">
+              <ul class="clearfix">
+                <li>
+                  <a href="tel:0286618289" class="tel">(02)8661-8289</a>
+
+                  <a href="mailto:service@sheng-song.com" class="mail"
+                    >service@sheng-song.com</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="https://goo.gl/maps/2mwM9uNQfzrrDjn9A"
+                    class="add"
+                    target="_blank"
+                    ><span>11665</span> 臺北市文山區秀明路1段221之1號1樓</a
+                  >
+
+                  <a href="javasript:void(0)" class="o-time"
+                    >週一至週五 9:00～17:30</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="box2">
+            <img src="images/Bosch_logo.png" />
+
+            <h2 class="permit">授權經銷商</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <p class="copyright">
+      ©<span id="getyear"></span>&nbsp;勝崧科技股份有限公司 . 版權所有
+    </p>
+
+    <div class="cd-top js-cd-top"></div>
+
+    <script src="scripts/jquery-2.2.2.min.js"></script>
+
+    <script src="./scripts/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- fancybox -->
+    <script src="./scripts/fancybox/jquery.fancybox-buttons.js"></script>
+    <script src="./scripts/fancybox/jquery.fancybox-media.js"></script>
+    <script src="./scripts/fancybox/jquery.fancybox.js"></script>
+    <script src="./scripts/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="./scripts/fancybox/jquery.mousewheel.pack.js"></script>
+    <script src="./scripts/fancybox/jquery.fancybox-thumbs.js"></script>
+
+    <script src="scripts/jquery.flexslider.js"></script>
+
+    <script src="scripts/kit.fontawesome.js"></script>
+
+    <script src="scripts/backtop.js"></script>
+
+    <script src="scripts/slick.js"></script>
+
+    <script src="scripts/wow.min.js"></script>
+
+    <script src="scripts/lightgallery.js"></script>
+
+    <script src="scripts/main.js"></script>
+
+    <!-- <script type="text/javascript">lightGallery(document.getElementById('lightgallery'));</script> -->
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".fancybox").fancybox({
+          //   openEffect: "none",
+          //   closeEffect: "none",
+          prevEffect: "none",
+          nextEffect: "none",
+        });
+      });
+    </script>
+  </body>
+  <style>
+    #fancybox-loading,
+    .fancybox-close,
+    .fancybox-prev span,
+    .fancybox-next span {
+      background-image: url(styles/fancybox/fancybox_sprite@2x.png);
+      background-size: 44px 152px;
+    }
+  </style>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>勝崧科技</title>
+
+    <link rel="icon" href="images/icon.svg" />
+
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./styles/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="./styles/new.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="box1">
+          <a href="index.html"><img src="images/logo.svg" alt="勝崧科技" /></a>
+        </div>
+
+        <div class="box2">
+          <nav>
+            <ul class="flex-style">
+              <li class="active"><a href="index.html">首頁</a></li>
+
+              <li><a href="about.html">關於我們</a></li>
+
+              <li><a href="pdList.html">產品介紹</a></li>
+
+              <li><a href="download.html">檔案下載</a></li>
+
+              <li><a href="contact.html">聯絡我們</a></li>
+              <li><a href="login.html">登入</a></li>
+              <!-- <li class="member"><a>您好！XXX</a></li> -->
+            </ul>
+          </nav>
+        </div>
+        <!-- //box2 -->
+
+        <div class="box3 flex-style">
+          <form class="flex-style">
+            <input type="text" />
+            <button>
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <!-- //box3 -->
+        <div id="menu-icon">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="pageCover"></div>
+
+    <!-- -----------------------------------------------------------------------------------------homeSlider -->
+
+    <!-- <section class="banner">
+      <div class="container">
+        <div class="swiper-container" id="banner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="bg"
+                style="background-image: url(./images/test/s01.jpg)"
+              >
+                <div class="text-box">
+                  <h4>
+                    東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+                  </h4>
+                  <p>
+                    因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶高品質口罩製作與代工服務。
+                    口罩部份推出成人款、兒童款、幼幼款及高彩客製化訂製服務可供客戶選擇。
+                    詳細資訊請參考服務因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg"
+                style="background-image: url(./images/test/s02.jpg)"
+              >
+                <div class="text-box">
+                  <h4>
+                    東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+                  </h4>
+                  <p>
+                    因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶高品質口罩製作與代工服務。
+                    口罩部份推出成人款、兒童款、幼幼款及高彩客製化訂製服務可供客戶選擇。
+                    詳細資訊請參考服務因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg"
+                style="background-image: url(./images/test/s03.jpg)"
+              >
+                <div class="text-box">
+                  <h4>
+                    東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+                  </h4>
+                  <p>
+                    因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶高品質口罩製作與代工服務。
+                    口罩部份推出成人款、兒童款、幼幼款及高彩客製化訂製服務可供客戶選擇。
+                    詳細資訊請參考服務因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg"
+                style="background-image: url(./images/test/s04.jpg)"
+              >
+                <div class="text-box">
+                  <h4>
+                    東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+                  </h4>
+                  <p>
+                    因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶高品質口罩製作與代工服務。
+                    口罩部份推出成人款、兒童款、幼幼款及高彩客製化訂製服務可供客戶選擇。
+                    詳細資訊請參考服務因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination container" id="banner-pag"></div>
+
+          <div class="Sprev arrow">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="Snext arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="banner container">
+      <div id="bannerIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#bannerIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#bannerIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#bannerIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item bg active"
+            style="background-image: url(./images/test/s01.jpg)"
+          >
+            <div class="text-box">
+              <h4>
+                東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+              </h4>
+              <p>
+                因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶高品
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-item bg"
+            style="background-image: url(./images/test/s02.jpg)"
+          >
+            <div class="text-box">
+              <h4>
+                東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+              </h4>
+              <p>
+                因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-item bg"
+            style="background-image: url(./images/test/s03.jpg)"
+          >
+            <div class="text-box">
+              <h4>
+                東野精機新增醫療事業服務，提供客戶高品質口罩製作與代工服務。
+              </h4>
+              <p>
+                因應COVID-19，EFC集團同時擁有製作口罩機(易發/研發生產)及口罩(東野/研發生產)之能力，提供客戶
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#bannerIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#bannerIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="product container">
+      <h2 class="title">推薦產品<span></span></h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <a href="#">
+            <div class="product-box">
+              <div class="pic">
+                <div
+                  class="bg"
+                  style="background-image: url(./images/test/02.jpg)"
+                ></div>
+                <div class="hover-box">
+                  <div>
+                    <h4>產品名稱</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h5>產品標題</h5>
+                <p>產品次標題</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="clearfix">
+      <div class="container">
+        <div class="d-flex">
+          <div class="box1">
+            <div class="at-top">
+              <h2>勝崧科技股份有限公司</h2>
+
+              <h3>SHENGSONG TECHNOLOGY Co., Ltd</h3>
+            </div>
+
+            <div class="at-bottom">
+              <ul class="clearfix">
+                <li>
+                  <a href="tel:0286618289" class="tel">(02)8661-8289</a>
+
+                  <a href="mailto:service@sheng-song.com" class="mail"
+                    >service@sheng-song.com</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="https://goo.gl/maps/2mwM9uNQfzrrDjn9A"
+                    class="add"
+                    target="_blank"
+                    ><span>11665</span> 臺北市文山區秀明路1段221之1號1樓</a
+                  >
+
+                  <a href="javasript:void(0)" class="o-time"
+                    >週一至週五 9:00～17:30</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="box2">
+            <img src="images/Bosch_logo.png" />
+
+            <h2 class="permit">授權經銷商</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <p class="copyright">
+      ©<span id="getyear"></span>&nbsp;勝崧科技股份有限公司 . 版權所有
+    </p>
+
+    <div class="cd-top js-cd-top"></div>
+
+    <script src="scripts/jquery-2.2.2.min.js"></script>
+
+    <script src="./scripts/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="scripts/jquery.flexslider.js"></script>
+
+    <script src="scripts/kit.fontawesome.js"></script>
+
+    <script src="scripts/backtop.js"></script>
+
+    <script src="scripts/slick.js"></script>
+
+    <script src="scripts/wow.min.js"></script>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

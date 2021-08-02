@@ -1,0 +1,164 @@
+/*----------------------------------*\
+   # slick-slider (common rules) 
+\*----------------------------------*/
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    min-height: 1px;
+    height: 100%;    
+    margin: 0; 
+    transition: all ease-in-out .3s;
+    opacity: .2;     
+}
+.slick-active {     
+    opacity: 1; 
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+.slick-current {
+    opacity: 1; 
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/* -------------------------------Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 0; 
+    line-height: 0;
+    color: transparent;    
+    position: absolute; 
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;    
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index:1; 
+}
+/*==================全站箭頭相同時用*/
+.slick-prev {
+    left: -25px; 
+    top: 50%;
+}
+.slick-next {
+    right: -25px; 
+    top: 50%;
+}
+
+/*-------------------------------Dots*/
+.slick-dots {
+    position: absolute;
+    bottom: 25px; /*★負值:Dots在圖片下,正值:Dots在圖片上*/
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px; /*★點與點間距*/
+    padding: 0;
+    cursor: pointer;
+}
+/*每個點改成數字時改以下設定*/
+.slick-dots li button { 
+    font-size: 0; 
+    color: transparent; 
+    width: 20px; height: 20px;
+    line-height: 0;
+    display: block;    
+    padding: 5px;
+    cursor: pointer;    
+    border: 0;
+    outline: none;
+    background: transparent; 
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+.slick-dots li button:before {    
+    font-size: 26px; /*★變更圓點大小*/
+    line-height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 20px;*/
+    height: 36px;
+    content: '○';
+    text-align: center;    
+    opacity: .25;opacity: 1;
+    color: black; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before{
+    content: '●';
+    /*font-size: 26px;
+    line-height: 30px;
+    height: 26px;*/
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .94;opacity: 1;
+    color: black; color:#354c72;
+}
+@media (max-width: 541px) {
+    .slick-dots {   
+        bottom: 10px;
+    } 
+    .slick-dots li button:before {    
+        font-size: 20px; 
+        line-height: 20px; 
+        height: 19px;    
+    }
+    .slick-dots li.slick-active button:before{    
+        font-size: 15px;
+        line-height: 22px;
+        height: 15px;    
+    }
+}
