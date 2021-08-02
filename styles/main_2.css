@@ -24,7 +24,9 @@
 
 	text-align: center;
 
-	margin: 60px auto 0 ;
+	margin: 60px auto 40px;
+
+	padding-top: 60px;
 
 	color: #354c72;	
 
@@ -1342,9 +1344,9 @@ a:hover.joinBtn {background: #c69b34;color: #fff }
 
 	.joinBtn { 	
 
-		width:calc(100% - 60px); 
+		/* width:calc(100% - 60px);  */
 
-		margin:30px 0 0 60px	  
+		/* margin:30px 0 0 60px	   */
 
 	}   
 
@@ -1755,7 +1757,7 @@ a:hover.joinBtn {background: #c69b34;color: #fff }
 
 .inputBox {   
 
-	margin:10px 0;
+	margin:20px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
