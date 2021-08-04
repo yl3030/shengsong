@@ -1264,7 +1264,12 @@ textarea {
 
 }
 
-.inputBox4 {text-align: right; margin-top:20px }
+.inputBox4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+ }
 
 .inputBox4 label span{
 
@@ -1292,6 +1297,11 @@ textarea {
 
 	display:inline-block; 
 
+}
+
+.inputBox4 p {
+	font-size: 14px;
+	margin: 0;
 }
 
 /*--------------註冊Btn*/
