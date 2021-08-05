@@ -8,7 +8,6 @@
 
 	width:100%;
 
-	height: 140px;/**/
 
 	margin-top:0px;	
 
@@ -26,7 +25,7 @@
 
 	margin: 60px auto 40px;
 
-	padding-top: 60px;
+	/* padding-top: 60px; */
 
 	color: #354c72;	
 
@@ -44,7 +43,7 @@
 
 	background:#ccc;
 
-	margin: 10px auto 0;
+	margin: 15px auto 0;
 
 	display: block;
 
@@ -120,7 +119,7 @@
 
 	width:100%;	
 
-	margin: 30px auto 80px; 
+	margin: 0 auto 80px; 
 
 	/* min-height: calc(100vh - 90px - 140px - 110px - 290px);  */
 
